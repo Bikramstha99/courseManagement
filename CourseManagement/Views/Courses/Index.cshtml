@@ -1,0 +1,30 @@
+﻿@model List<CourseManagement.Models.Domain.Course>
+@{
+
+}
+<h1>Students</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Name</th>
+            <th>Category</th>
+            <th>Cost</th>
+          
+            <th> </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach(var course in Model)
+        {
+            <tr>
+                <td>@course.Id</td>
+                <td>@course.Name</td>
+                <td>@course.Category</td>
+                <td>@course.Cost</td>
+                <td><a href="Courses/Edit/@course.Id">View</a></td>
+            </tr>
+        }
+    </tbody>
+</table>
