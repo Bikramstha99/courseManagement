@@ -2,6 +2,7 @@
 using CourseManagement.Models;
 using CourseManagement.Models.Domain;
 using Microsoft.AspNetCore.Mvc;
+using System.Reflection.Metadata.Ecma335;
 
 namespace CourseManagement.Controllers
 {
@@ -56,6 +57,33 @@ namespace CourseManagement.Controllers
             }
             return RedirectToAction("Index");
 
+        }
+        [HttpPost]
+        public IActionResult Edit(UpdateCourse updatecourse)
+        {
+            var course = coursedb.Courses.Find(updatecourse.Id);
+            if (course != null)
+            {
+                course.Name = updatecourse.Name;
+                course.Cost = updatecourse.Cost;
+                course.Category = updatecourse.Category;
+                coursedb.Courses.Update(course);
+                coursedb.SaveChanges();
+                return RedirectToAction("Index");
+            }
+            return RedirectToAction("Index");
+        }
+        [HttpPost]
+        public IActionResult Delete(Guid id)
+        {
+            var course =coursedb.Courses.FirstOrDefault(c => c.Id == id);
+            if(course != null)
+            {
+                coursedb.Courses.Remove(course);
+                coursedb.SaveChanges();
+                return RedirectToAction("Index");
+            }
+            return RedirectToAction("Index");
         }
     }
 }
