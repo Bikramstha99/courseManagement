@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Acer\\OneDrive\\Desktop\\C# console app\\CourseManagement\\CourseManagement\\CourseManagement.csproj": {}
+    "C:\\Users\\bikram.shrestha\\Desktop\\New folder\\CourseManagement\\CourseManagement.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Acer\\OneDrive\\Desktop\\C# console app\\CourseManagement\\CourseManagement\\CourseManagement.csproj": {
+    "C:\\Users\\bikram.shrestha\\Desktop\\New folder\\CourseManagement\\CourseManagement.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Acer\\OneDrive\\Desktop\\C# console app\\CourseManagement\\CourseManagement\\CourseManagement.csproj",
+        "projectUniqueName": "C:\\Users\\bikram.shrestha\\Desktop\\New folder\\CourseManagement\\CourseManagement.csproj",
         "projectName": "CourseManagement",
-        "projectPath": "C:\\Users\\Acer\\OneDrive\\Desktop\\C# console app\\CourseManagement\\CourseManagement\\CourseManagement.csproj",
-        "packagesPath": "C:\\Users\\Acer\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Acer\\OneDrive\\Desktop\\C# console app\\CourseManagement\\CourseManagement\\obj\\",
+        "projectPath": "C:\\Users\\bikram.shrestha\\Desktop\\New folder\\CourseManagement\\CourseManagement.csproj",
+        "packagesPath": "C:\\Users\\bikram.shrestha\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\bikram.shrestha\\Desktop\\New folder\\CourseManagement\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Acer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\bikram.shrestha\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -74,7 +74,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }
